@@ -1,0 +1,11 @@
+### Test GET / endpoint
+GET http://localhost:40000/ HTTP/1.1
+Content-Type: application/json
+
+### Test POST /helloUser endpoint
+POST http://localhost:40000/helloUser HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "Victor"
+}
